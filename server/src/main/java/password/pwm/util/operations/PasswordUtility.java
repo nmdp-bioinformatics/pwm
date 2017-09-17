@@ -297,7 +297,7 @@ public class PasswordUtility {
         final PasswordData oldPassword = pwmSession.getLoginInfoBean().getUserCurrentPassword();
 
         // for the SMART on FHIR implementation, allow this
-        boolean setPasswordWithoutOld = true;
+        final boolean setPasswordWithoutOld = true;
 //        if (oldPassword == null) {
 //            if (pwmSession.getSessionManager().getActor(pwmApplication).getChaiProvider().getDirectoryVendor() == ChaiProvider.DIRECTORY_VENDOR.MICROSOFT_ACTIVE_DIRECTORY) {
 //                setPasswordWithoutOld = true;
