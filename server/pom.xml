@@ -142,6 +142,7 @@
                     <excludes>
                         <exclude>password.pwm.manual.*</exclude>
                     </excludes>
+                    <useSystemClassLoader>false</useSystemClassLoader>
                 </configuration>
             </plugin>
             <plugin>
